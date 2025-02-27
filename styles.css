@@ -1,0 +1,9 @@
+/* Requirement-2.A: Element Selector */
+body {
+    font-family: Arial, sans-serif; /* Requirement-2.1: font-family */
+    font-size: 16px; /* Requirement-2.1: font-size */
+    color: #333; /* Requirement-2.3: text color */
+    background-color: #f4f4f4; /* Requirement-2.4: background-color */
+    margin: 0; /* Requirement-2.5: margin */
+    padding: 0; /* Requirement-2.5: padding */
+}
