@@ -7,3 +7,9 @@ body {
     margin: 0; /* Requirement-2.5: margin */
     padding: 0; /* Requirement-2.5: padding */
 }
+
+/* Requirement-2.B: Grouped Element Selector */
+h1, h2, h3 {
+    text-align: center; /* Requirement-2.2: text-align */
+    font-weight: bold; /* Requirement-2.1: font-weight */
+}
