@@ -13,3 +13,9 @@ h1, h2, h3 {
     text-align: center; /* Requirement-2.2: text-align */
     font-weight: bold; /* Requirement-2.1: font-weight */
 }
+
+/* Requirement-2.C: Class Selector */
+.highlight {
+    background-color: yellow;
+    font-style: italic; /* Requirement-2.1: font-style */
+}
