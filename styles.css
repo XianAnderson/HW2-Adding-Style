@@ -69,3 +69,11 @@ img {
     float: left; /* Requirement-2.10: float */
     margin-right: 10px; /* Requirement-2.5: margin-right */
 }
+
+/* Requirement-2.L: display property */
+nav {
+    display: flex; /* Requirement-2.11: display */
+    justify-content: center;
+    background: #ddd;
+    padding: 10px;
+}
