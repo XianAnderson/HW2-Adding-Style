@@ -100,3 +100,17 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+/* Requirement-2.P: visibility property */
+.hidden {
+    visibility: hidden; /* Requirement-2.15: visibility */
+}
+
+/* Requirement-2.Q: z-index property */
+.modal {
+    position: absolute;
+    z-index: 100; /* Requirement-2.16: z-index */
+    background: white;
+    padding: 20px;
+    border: 1px solid black;
+}
