@@ -89,3 +89,14 @@ nav {
 .container {
     overflow: hidden; /* Requirement-2.13: overflow */
 }
+
+/* Requirement-2.O: position property */
+footer {
+    position: relative; /* Requirement-2.14: position */
+    bottom: 0;
+    width: 100%;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
