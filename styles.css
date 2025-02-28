@@ -77,3 +77,10 @@ nav {
     background: #ddd;
     padding: 10px;
 }
+
+/* Requirement-2.M: clear property */
+.clearfix::after {
+    content: "";
+    display: block; /* Requirement-2.12: clear */
+    clear: both;
+}
