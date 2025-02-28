@@ -84,3 +84,8 @@ nav {
     display: block; /* Requirement-2.12: clear */
     clear: both;
 }
+
+/* Requirement-2.N: overflow property */
+.container {
+    overflow: hidden; /* Requirement-2.13: overflow */
+}
