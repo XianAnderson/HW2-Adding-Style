@@ -19,3 +19,11 @@ h1, h2, h3 {
     background-color: yellow;
     font-style: italic; /* Requirement-2.1: font-style */
 }
+
+/* Requirement-2.D: ID Selector */
+#main-content {
+    width: 80%; /* Requirement-2.6: width */
+    margin: auto;
+    background: white; /* Requirement-2.4: background */
+    padding: 20px; /* Requirement-2.5: padding */
+}
