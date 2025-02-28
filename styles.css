@@ -33,3 +33,10 @@ a:hover {
     color: red; /* Requirement-2.3: text color */
     text-decoration: underline; /* Requirement-2.2: text-decoration */
 }
+
+/* Requirement-2.F: Contextual Selector */
+nav a {
+    color: blue; /* Requirement-2.3: text color */
+    font-weight: bold; /* Requirement-2.1: font-weight */
+    margin-right: 15px; /* Requirement-2.5: margin */
+}
