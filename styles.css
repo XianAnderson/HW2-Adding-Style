@@ -41,7 +41,14 @@ nav a {
     margin-right: 15px; /* Requirement-2.5: margin */
 }
 
+/* Requirement-2.G: Borders */
 table {
     border: 2px solid black; /* Requirement-2.4: border */
     width: 100%; /* Requirement-2.6: width */
+}
+
+/* Requirement-2.H: Lists */
+ul, ol {
+    list-style-type: square; /* Requirement-2.7: list-style-type */
+    padding-left: 20px; /* Requirement-2.5: padding-left */
 }
