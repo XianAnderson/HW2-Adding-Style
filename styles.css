@@ -27,3 +27,9 @@ h1, h2, h3 {
     background: white; /* Requirement-2.4: background */
     padding: 20px; /* Requirement-2.5: padding */
 }
+
+/* Requirement-2.E: Pseudo Selector */
+a:hover {
+    color: red; /* Requirement-2.3: text color */
+    text-decoration: underline; /* Requirement-2.2: text-decoration */
+}
