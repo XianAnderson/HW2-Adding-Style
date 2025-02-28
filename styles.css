@@ -63,3 +63,9 @@ section {
     width: 80%; /* Requirement-2.9: relative width */
     margin: auto; /* Requirement-2.5: margin */
 }
+
+/* Requirement-2.K: float property */
+img {
+    float: left; /* Requirement-2.10: float */
+    margin-right: 10px; /* Requirement-2.5: margin-right */
+}
