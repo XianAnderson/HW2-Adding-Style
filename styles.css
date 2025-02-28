@@ -2,115 +2,125 @@
 body {
     font-family: Arial, sans-serif; /* Requirement-2.1: font-family */
     font-size: 16px; /* Requirement-2.1: font-size */
-    color: #333; /* Requirement-2.3: text color */
-    background-color: #f4f4f4; /* Requirement-2.4: background-color */
-    margin: 0; /* Requirement-2.5: margin */
-    padding: 0; /* Requirement-2.5: padding */
+    color: #ddd; /* Requirement-2.3: color */
+    background-color: #222; /* Requirement-2.4: background-color */
+    margin: 0; /* Requirement-2.6: margin */
+    padding: 0; /* Requirement-2.6: padding */
 }
 
 /* Requirement-2.B: Grouped Element Selector */
 h1, h2, h3 {
     text-align: center; /* Requirement-2.2: text-align */
     font-weight: bold; /* Requirement-2.1: font-weight */
+    color: #fff;
 }
 
 /* Requirement-2.C: Class Selector */
 .highlight {
-    background-color: yellow;
+    background-color: yellow; /* Requirement-2.4: background */
     font-style: italic; /* Requirement-2.1: font-style */
 }
 
 /* Requirement-2.D: ID Selector */
 #main-content {
-    width: 80%; /* Requirement-2.6: width */
-    margin: auto;
-    background: white; /* Requirement-2.4: background */
-    padding: 20px; /* Requirement-2.5: padding */
+    width: 80%; /* Requirement-2.7: width */
+    margin: auto; /* Requirement-2.6: margin */
+    background: #333; /* Requirement-2.4: background */
+    padding: 20px; /* Requirement-2.6: padding */
+    border-radius: 10px;
 }
 
 /* Requirement-2.E: Pseudo Selector */
 a:hover {
-    color: red; /* Requirement-2.3: text color */
+    color: red; /* Requirement-2.3: color */
     text-decoration: underline; /* Requirement-2.2: text-decoration */
 }
 
 /* Requirement-2.F: Contextual Selector */
 nav a {
-    color: blue; /* Requirement-2.3: text color */
+    color: #66ccff; /* Requirement-2.3: color */
     font-weight: bold; /* Requirement-2.1: font-weight */
-    margin-right: 15px; /* Requirement-2.5: margin */
+    margin-right: 15px; /* Requirement-2.6: margin */
+    text-decoration: none;
 }
 
-/* Requirement-2.G: Borders */
-table {
-    border: 2px solid black; /* Requirement-2.4: border */
-    width: 100%; /* Requirement-2.6: width */
+/* Requirement-2.G: Details Element */
+details {
+    border: 1px solid white; /* Requirement-2.5: border */
+    padding: 10px; /* Requirement-2.6: padding */
+    background-color: #333; /* Requirement-2.4: background */
+    color: #fff;
 }
 
-/* Requirement-2.H: Lists */
+/* Requirement-2.H: Summary Element */
+summary {
+    font-weight: bold; /* Requirement-2.1: font-weight */
+    cursor: pointer; /* Makes it clear it's clickable */
+    color: #66ccff; /* Requirement-2.3: color */
+}
+
 ul, ol {
-    list-style-type: square; /* Requirement-2.7: list-style-type */
-    padding-left: 20px; /* Requirement-2.5: padding-left */
+    list-style-type: square; /* Requirement-2.8: list-style-type */
+    padding-left: 20px; /* Requirement-2.6: padding */
+    color: #ddd;
 }
 
-/* Requirement-2.I: Absolute Units */
 header {
-    height: 100px; /* Requirement-2.8: absolute height */
+    height: 100px; /* Requirement-2.9: absolute height */
+    padding: 20px;
+    text-align: center;
 }
 
-/* Requirement-2.J: Relative Units */
 section {
-    width: 80%; /* Requirement-2.9: relative width */
-    margin: auto; /* Requirement-2.5: margin */
+    width: 80%; /* Requirement-2.10: relative width */
+    margin: auto; /* Requirement-2.6: margin */
+    background: #333;
+    padding: 15px;
+    border-radius: 10px;
 }
 
-/* Requirement-2.K: float property */
 img {
-    float: left; /* Requirement-2.10: float */
-    margin-right: 10px; /* Requirement-2.5: margin-right */
+    float: left; /* Requirement-2.11: float */
+    margin-right: 10px; /* Requirement-2.6: margin */
+    border-radius: 10px;
 }
 
-/* Requirement-2.L: display property */
 nav {
-    display: flex; /* Requirement-2.11: display */
+    display: flex; /* Requirement-2.12: display */
     justify-content: center;
-    background: #ddd;
+    background: #111;
     padding: 10px;
 }
 
 /* Requirement-2.M: clear property */
 .clearfix::after {
     content: "";
-    display: block; /* Requirement-2.12: clear */
+    display: block; /* Requirement-2.13: clear */
     clear: both;
 }
 
-/* Requirement-2.N: overflow property */
 .container {
-    overflow: hidden; /* Requirement-2.13: overflow */
+    overflow: hidden; /* Requirement-2.14: overflow */
 }
 
-/* Requirement-2.O: position property */
 footer {
-    position: relative; /* Requirement-2.14: position */
+    position: relative; /* Requirement-2.15: position */
     bottom: 0;
     width: 100%;
-    background: #222;
+    background: #111;
     color: white;
     text-align: center;
     padding: 10px;
 }
 
-/* Requirement-2.P: visibility property */
 .hidden {
-    visibility: hidden; /* Requirement-2.15: visibility */
+    visibility: hidden; /* Requirement-2.16: visibility */
 }
 
-/* Requirement-2.Q: z-index property */
 .modal {
     position: absolute;
-    z-index: 100; /* Requirement-2.16: z-index */
+    z-index: 100; /* Requirement-2.17: z-index */
     background: white;
     padding: 20px;
-    border: 1px solid black;
+    border: 1px solid black; /* Requirement-2.5: border */
 }
