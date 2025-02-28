@@ -40,3 +40,8 @@ nav a {
     font-weight: bold; /* Requirement-2.1: font-weight */
     margin-right: 15px; /* Requirement-2.5: margin */
 }
+
+table {
+    border: 2px solid black; /* Requirement-2.4: border */
+    width: 100%; /* Requirement-2.6: width */
+}
