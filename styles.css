@@ -52,3 +52,8 @@ ul, ol {
     list-style-type: square; /* Requirement-2.7: list-style-type */
     padding-left: 20px; /* Requirement-2.5: padding-left */
 }
+
+/* Requirement-2.I: Absolute Units */
+header {
+    height: 100px; /* Requirement-2.8: absolute height */
+}
